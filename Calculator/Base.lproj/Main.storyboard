@@ -33,7 +33,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="$0.00" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cjy-Og-KEs">
-                                <rect key="frame" x="314" y="204" width="45" height="21"/>
+                                <rect key="frame" x="288" y="204" width="71" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
@@ -45,7 +45,7 @@
                                 <color key="backgroundColor" red="0.27590673575129532" green="0.082571383274185367" blue="0.067256584512417603" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </view>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Total" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tyi-gZ-alm">
-                                <rect key="frame" x="16" y="310" width="56" height="31"/>
+                                <rect key="frame" x="16" y="310" width="70" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
@@ -88,12 +88,12 @@
                             <outletCollection property="gestureRecognizers" destination="TUN-gr-RgX" appends="YES" id="d4z-Jl-6rf"/>
                         </connections>
                     </view>
-                    <navigationItem key="navigationItem" prompt="QueeCalculator" id="Wl0-JS-W0T"/>
+                    <navigationItem key="navigationItem" prompt="Tip Calculator" id="Wl0-JS-W0T"/>
                     <connections>
                         <outlet property="billField" destination="EGh-rx-wjv" id="1sX-9X-iyA"/>
                         <outlet property="tipLabel" destination="cjy-Og-KEs" id="CdA-tB-hhg"/>
                         <outlet property="tipcontrol" destination="Rye-YK-8D6" id="ajZ-3n-yYW"/>
-                        <outlet property="totalLabel" destination="tyi-gZ-alm" id="byb-fV-60T"/>
+                        <outlet property="totalLabel" destination="3l0-KS-8L6" id="tbL-qg-jC1"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
